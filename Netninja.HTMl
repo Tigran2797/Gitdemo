@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Page</title>
+   <link rel="stylesheet" href="/CSS/Styles.css">
+  </head>
+  <body>
+    <div>
+      <h1>This is the Manchester United fan ugly page</h1>
+    </div>
+ 
+    <div>
+      <img src="/images/IMG_1848.HEIC" alt="Tigran Baghdasaryan's photo" class="myimage" />
+    </div>
+    <div>
+      <h3>Tigran Baghdasaryan</h3>
+      <p class="description-text">Text for class</p>
+    </div>
+    <div>
+      <ul>
+        <li>Age - <strong>26</strong></li>
+        <li>Born - <strong>Stepanakert</strong></li>
+        <li>Profession - <strong>QA</strong></li>
+        <li>Favorite color - <strong>Khaki</strong></li>
+      </ul>
+    </div>
+    <div class="square_for_color"></div>
+    <div>  
+      <form> 
+        <label for="username">Enter username</label>
+        <input
+          class="username"
+          type="text"
+          placeholder="Enter username"
+          id="username"
+          required
+        />
+        <br /><br />
+
+        <label for="email">Enter email</label>
+        <input
+          class="email_field"
+          type="email"
+          name="email"
+          placeholder="Enter email"
+          id="email"
+          required 
+        />
+        <br /><br />
+
+        <label for="password">Enter password</label>
+        <input
+          class="password"
+          type="password"
+          name="password"
+          placeholder="Enter password"
+          id="password"
+          required
+        />
+        <br /><br />
+      
+    </div>
+
+    <div>
+      
+        <p><strong>Select my age</strong></p>
+
+        <input type="radio" name="age" value="0-15" id="radio1" required />
+        <label for="radio1">0-15</label>
+
+        <input type="radio" name="age" value="16-30" id="radio2" required />
+        <label for="radio2">16-30</label>
+
+        <input type="radio" name="age" value="31-45" id="radio3" required />
+        <label for="radio3">31-45</label>
+
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+    
+    <a href="https://www.manutd.com/" class="MU">Manchester United site</a> 
+    
+  </body>
+</html>
